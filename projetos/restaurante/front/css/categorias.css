@@ -1,11 +1,12 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
   background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
 }
 
 .filter-container {
@@ -19,6 +20,8 @@ body {
 
 h2 {
   text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -61,8 +64,60 @@ a.active {
 
 h3 {
   margin-bottom: 5px;
+  font-size: 1.2rem;
 }
 
 p {
   margin: 5px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Definir o estilo padrão para todos os itens do restaurante */
+.restaurant-item {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Esconder itens do restaurante que não fazem parte da categoria selecionada */
+.restaurant-item:not(.todos) {
+  display: none;
+}
+
+/* Definir o estilo para a categoria ativa */
+#categorias li.active {
+  font-weight: bold;
+}
+
+/* Definir o estilo para a lista de categorias */
+#categorias {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Definir o estilo para cada item da lista de categorias */
+#categorias li {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Definir o estilo para cada item da lista de categorias quando hover */
+#categorias li:hover {
+  background-color: #ccc;
+}
+
+/* Definir o estilo para o contêiner de filtro */
+.filter-container {
+  margin-bottom: 20px;
+}
+
+/* Definir o estilo para o contêiner de restaurantes */
+.restaurant-container {
+  margin-top: 20px;
 }
