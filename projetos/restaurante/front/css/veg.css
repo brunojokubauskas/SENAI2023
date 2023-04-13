@@ -1,0 +1,132 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para a área do restaurante */
+#restaurant-info {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o título do restaurante */
+#restaurant-info h1 {
+  font-size: 36px;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+/* Estilos para as informações do restaurante */
+#restaurant-info p {
+  margin: 0;
+}
+
+/* Estilos para o cardápio */
+#restaurant-info h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#restaurant-info ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#restaurant-info li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para as avaliações */
+#reviews {
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#reviews h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#reviews ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#reviews li {
+  margin-bottom: 20px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.review-header h3 {
+  margin: 0;
+}
+
+.review-header p {
+  margin: 0;
+}
+
+/* Estilos para o formulário de avaliação */
+#review-form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#review-form h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#review-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#review-form input,
+#review-form select,
+#review-form textarea {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#review-form textarea {
+  height: 100px;
+}
+
+#review-form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#review-form button[type="submit"]:hover {
+  background-color: #555;
+}
