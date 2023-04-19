@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express.Router();
+//Vai receber os dados em json...
+app.use(express.json());
 
 app.get("/vendedores", (req, res) => {
   // Endpoint para retornar nome do vendedor, matricula, total vendido e comissão (5%)

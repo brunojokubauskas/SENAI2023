@@ -8,13 +8,24 @@ const app = express();
 app.use("/vendedores", vendasRouter);
 app.use("/vendas", vendasRouter);
 app.use("/total-vendas", vendasRouter);
-
 // middleware para permitir o acesso a recursos de diferentes origens
 app.use(cors());
 
 // rota padrão
 app.get("/", (req, res) => {
   res.send("Bem-vindo ao servidor Node.js com Express e Cors!");
+});
+
+app.get("/vendedores", (req, res) => {
+  res.json();
+});
+
+app.get("/vendas", (req, res) => {
+  res.json();
+});
+
+app.get("/total-vendas", (req, res) => {
+  res.json();
 });
 
 // define a porta em que o servidor deve ser executado
