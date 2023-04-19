@@ -1,5 +1,5 @@
 const express = require("express");
-const app = express();
+const app = express.Router();
 
 app.get("/vendedores", (req, res) => {
   // Endpoint para retornar nome do vendedor, matricula, total vendido e comissão (5%)
@@ -13,4 +13,6 @@ app.get("/total-vendas", (req, res) => {
   // Endpoint para retornar o valor total das vendas
 });
 
-app.listen(3000, () => console.log("Server running on port 3000"));
+//app.listen(3000, () => console.log("Server running on port 3000"));
+
+module.exports = app;

@@ -1,0 +1,19 @@
+{
+  "vendas": [
+    {
+      "data": "2023-04-18 08:39:00",
+      "produto": "Samsung Galaxy M53",
+      "vendedor": "Stefany Antonely"
+    },
+    {
+      "data": "2023-04-18 08:39:00",
+      "produto": "Motorola Moto G42",
+      "vendedor": "Stella Viana"
+    },
+    {
+      "data": "2023-04-18 08:39:00",
+      "produto": "Rainha das Chamas",
+      "vendedor": "Tomás Isaac"
+    }
+  ]
+}

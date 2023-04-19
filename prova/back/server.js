@@ -1,7 +1,13 @@
 const express = require("express");
 const cors = require("cors");
+const vendasRouter = require("./src/routes/routes");
 
 const app = express();
+//Rotas
+
+app.use("/vendedores", vendasRouter);
+app.use("/vendas", vendasRouter);
+app.use("/total-vendas", vendasRouter);
 
 // middleware para permitir o acesso a recursos de diferentes origens
 app.use(cors());
